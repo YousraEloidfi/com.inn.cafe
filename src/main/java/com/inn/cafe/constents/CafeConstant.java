@@ -8,6 +8,4 @@ public class CafeConstant {
     public static final String UNAUTHORIZED_ACCESS = "Unauthorized access.";
 
     public static final String STORE_LOCATION = "Store_Location";
-
-
 }
