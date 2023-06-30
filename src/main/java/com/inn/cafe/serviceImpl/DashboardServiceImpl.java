@@ -21,7 +21,7 @@ public class DashboardServiceImpl implements DashboardService {
     ProductDao productDao;
 
     @Override
-    public ResponseEntity<Map<String, Object>> getCount() {
+    public ResponseEntity<Map<String, Object>> getCount(){
         Map<String , Object> map = new HashMap<>();
         map.put("category" , categoryDao.count());
         map.put("product" , productDao.count());
